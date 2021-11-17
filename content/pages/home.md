@@ -1,13 +1,10 @@
 ---
 blocks:
-  - tagline: ''
-    headline: Welcome to <Business Name>
-    text: ''
-    image:
-      src: >-
-        https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
-      alt: ''
-    color: default
+  - tagline: Here's some text above the other text
+    headline: This Big Text is Totally Awesome
+    text: >-
+      Phasellus scelerisque, libero eu finibus rutrum, risus risus accumsan
+      libero, nec molestie urna dui a leo.
     _template: hero
   - body: >-
       **ABOUT US**
@@ -19,16 +16,25 @@ blocks:
       information about the services we provide, reach out today.
     color: default
     _template: content
-  - body: >-
-      **OUR SERVICES**
-
-
-      We’re committed to helping our customers every step of the way and
+  - tagline: OUR SERVICES
+    headline: ''
+    text: >-
+      ###### We’re committed to helping our customers every step of the way and
       providing useful services to take care of all their needs. Read below to
       learn about the range of services we provide. We’re constantly growing and
       expanding our service options, so if you have something in mind that we
       don’t yet provide, we’d love to hear about it.
-    _template: content
+    actions:
+      - label: Book Now
+        type: button
+        icon: true
+        link: ''
+    image:
+      src: >-
+        https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
+      alt: ''
+    color: default
+    _template: hero
   - quote: >-
       There are only two hard things in Computer Science: cache invalidation and
       naming things.
