@@ -2,14 +2,32 @@
 blocks:
   - tagline: ''
     headline: Welcome to <Business Name>
-    text: Leading <Company Type>
+    text: ''
     image:
       src: >-
         https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
       alt: ''
     color: default
     _template: hero
-  - body: ''
+  - body: >-
+      **ABOUT US**
+
+
+      <Company Name> has been known for an unparalleled commitment to customer
+      satisfaction. It’s this standard of excellence that has provided the
+      impetus for us to grow into the business we are today. For more
+      information about the services we provide, reach out today.
+    color: default
+    _template: content
+  - body: >-
+      **OUR SERVICES**
+
+
+      We’re committed to helping our customers every step of the way and
+      providing useful services to take care of all their needs. Read below to
+      learn about the range of services we provide. We’re constantly growing and
+      expanding our service options, so if you have something in mind that we
+      don’t yet provide, we’d love to hear about it.
     _template: content
   - quote: >-
       There are only two hard things in Computer Science: cache invalidation and
