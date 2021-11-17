@@ -16,8 +16,8 @@
         "label": "About"
       },
       {
-        "href": "Services",
-        "label": "Services"
+        "href": "posts",
+        "label": "Blog"
       }
     ]
   },
@@ -30,7 +30,7 @@
     }
   },
   "theme": {
-    "color": "blue",
+    "color": "teal",
     "font": "sans",
     "icon": "boxicon",
     "darkMode": "system"
