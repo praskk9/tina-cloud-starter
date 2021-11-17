@@ -4,16 +4,14 @@ blocks:
     headline: Welcome to <Business Name>
     text: ''
     _template: hero
-  - body: >-
-      **ABOUT US**
-
-
+  - tagline: ABOUT US
+    headline: ''
+    text: >-
       <Company Name> has been known for an unparalleled commitment to customer
       satisfaction. It’s this standard of excellence that has provided the
       impetus for us to grow into the business we are today. For more
       information about the services we provide, reach out today.
-    color: default
-    _template: content
+    _template: hero
   - tagline: OUR SERVICES
     headline: ''
     text: >-
@@ -32,6 +30,13 @@ blocks:
         https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
       alt: ''
     color: default
+    _template: hero
+  - tagline: OPENING HOURS
+    headline: Come Visit
+    text: |-
+      Mon - Fri: 9am - 6pm  
+      Sat: 10am - 2pm  
+      Sun: Closed
     _template: hero
   - quote: >-
       There are only two hard things in Computer Science: cache invalidation and
