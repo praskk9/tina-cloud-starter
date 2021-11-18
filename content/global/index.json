@@ -30,8 +30,8 @@
     }
   },
   "theme": {
-    "color": "teal",
-    "font": "sans",
+    "color": "red",
+    "font": "nunito",
     "icon": "boxicon",
     "darkMode": "system"
   }
