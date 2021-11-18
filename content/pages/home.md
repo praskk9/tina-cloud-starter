@@ -1,17 +1,11 @@
 ---
 blocks:
-  - tagline: <Company Name>
-    headline: Welcome to <Business Name>
-    text: ''
-    _template: hero
-  - tagline: ABOUT US
-    headline: ''
-    text: >-
-      <Company Name> has been known for an unparalleled commitment to customer
-      satisfaction. It’s this standard of excellence that has provided the
-      impetus for us to grow into the business we are today. For more
-      information about the services we provide, reach out today.
-    _template: hero
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
+      Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse
+      urna nibh, viverra non, semper suscipit, posuere a, pede.
+    color: default
+    _template: content
   - tagline: OUR SERVICES
     headline: ''
     text: >-
@@ -30,6 +24,18 @@ blocks:
         https://res.cloudinary.com/forestry-demo/image/upload/v1628102029/tina-cloud-starter/tina-illustration.WebP
       alt: ''
     color: default
+    _template: hero
+  - tagline: <Company Name>
+    headline: Welcome to <Business Name>
+    text: ''
+    _template: hero
+  - tagline: ABOUT US
+    headline: ''
+    text: >-
+      <Company Name> has been known for an unparalleled commitment to customer
+      satisfaction. It’s this standard of excellence that has provided the
+      impetus for us to grow into the business we are today. For more
+      information about the services we provide, reach out today.
     _template: hero
   - tagline: OPENING HOURS
     headline: Come Visit
